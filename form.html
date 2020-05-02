@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>BUY NOW</title>
+	<link rel="stylesheet" type="text/css" href="css/select.css">
+</head>
+<body>
+	<div class="form">
+      <h2>BUY YOUR CHOICES</h2>
+      <form> 
+      	<p required> First Name:<input type="text" name="fname" maxlength="35" size="30">   Last Name:<input type="text" name="lname" maxlength="35" size="30"</p>
+      	<p>Password:<input type="password" name="password" maxlength="30" size="30"></p>
+
+      	<p>Shipping Address(Line 1):<input type="text" name="address" maxlength="70" size="50"></p> 
+      	<p>  Shipping Address(Line 1):<input type="text" name="address" maxlength="70" size="50"></p>
+      	<p>City:<input type="text" name="city" maxlength="20" size="10"> State:<input type="text" name="state" maxlength="20" size="10"> Zip Code:<input type="text" name="zcode" maxlength="20" size="10"> </p>
+      	<p>Email:<input type="email" name="emailaddress"> Phone:<input type="text" name="number" >Debit Card No:<input type="text" name="card"></p>
+      	<br>
+      	<h3><b>My Order</b></h3>
+      	<select name="product">
+      		<option value="saree">Saree
+      			<option value="frock">Frock
+      				<option value="lehenga">Lehenga
+      					<option value="jewellery">Jewellery
+      						<option value="wedding dress">wedding Dress
+      							<option value="shoes">Shoes
+      								<option value="other">Other
+      			
+      		
+
+      	</select>
+
+      	<p>Decription:<input type="text" name="description" maxlength="80" size="50"></p>
+
+      	<p><input type="Submit" value="Submit" onclick="submitfun()">
+	<script lang="javascript" type="text/javascript">
+	function submitfun(){
+		alert("submitted");
+}
+	</script></p>
+	<p><input type="button" value="+Add Item"></p>
+	
+      </form>
+      </div>
+</body>
+</html>
